@@ -1,0 +1,115 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* Container */
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Plan Card */
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.plan:hover {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+/* Plan text */
+.plan-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.plan-price {
+  margin: 0;
+  color: #555;
+}
+
+/* Buttons */
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Form */
+.form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Checkbox */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+/* Subscribe button */
+.subscribe-btn {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Dashboard */
+.dashboard {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #e6f7ea;
+  border: 1px solid #28a745;
+}
+
+.dashboard h3 {
+  margin-top: 0;
+}
+
+.dashboard p {
+  margin: 6px 0;
+}
